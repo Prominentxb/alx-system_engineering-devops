@@ -1,35 +1,23 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+# 0x01 Shell Permissions
 
-# 0x00 ALX System Engineering and DevOps 💥
+## Resources
 
->Learning bash, scripting, networking and web infra right now, been wanting to get on this. It's going to be FUN !!.
+- LinuxCommand.org [Permissions](http://linuxcommand.org/lc3_lts0090.php).
 
-## About
+## Tasks
 
-- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
-
----
-
-- [0x00](./0x00-shell_basics) : Writing basic bash scripts that perform basic stuff.
-- [0x01](./0x01-shell_permissions) : Linux permissions.
-- [0x02](./0x02-shell_redirections) : Shell, I/O Redirections and filters.
-- [0x03](./0x03-shell_variables_expansions) : Shell, init files, variables and expansions.
-- [0x04](./0x04-loops_conditions_and_parsing) : Loops, conditions and parsing.
-- [0x05](./0x05-processes_and_signals) : Processes and signals.
-- [0x06](./0x06-regular_expressions) : Regular expression.
-- [0x07](./0x07-networking_basics) : Networking basics #0.
-- [0x08](./0x08-networking_basics_2) : Networking basics #1.
-- [0x09](./0x09-web_infrastructure_design) : Web infrastructure design.
-- [0x0A](./0x0A-configuration_management) : Configuration management.
-- [0x0B](./0x0B-ssh) : SSH.
-- [0x0C](./0x0C-web_server) : Web server.
-- [0x0D](./0x0D-web_stack_debugging_0) : Web stack debugging #0.
-- [0x0E](./0x0E-web_stack_debugging_1) : Web stack debugging #1.
-- [0x0F](./0x0F-load_balancer) : Load balancer.
-- [0x10](./0x10-https_ssl) : HTTPS SSL.
-- [0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) : What happens when you type holbertonschool.com in your browser and press Enter.
-- [0x12](./0x12-web_stack_debugging_2) : Web stack debugging #2.
-- [0x13](./0x13-firewall) : Firewall.
-- [0x14](./0x14-mysql) : MySQL.
-- [0x15](./0x15-api) : API.
-- [Attack is the best defense.](./attack_is_the_best_defense)
+0. [My name is Betty](./0-iam_betty) : A script that switches the current user to the user betty.
+1. [Who am I](./1-who_am_i) : A script that prints the effective username of the current user.
+2. [Groups](./2-groups) : A script that prints all the groups the current user is part of.
+3. [New owner](./3-new_owner) : A script that changes the owner of the file  to the user No arguments passed..
+5. [Execute](./5-execute) : A script that adds execute permission to the owner of the file .
+6. [Multiple permissions](./6-multiple_permissions) : A script that adds execute permission to the owner and the group owner, and read permission to the other users, to the file .
+8. [James Bond](./8-James_Bond) : A script that gives the gives the rest of the users permission and removes all permission for the owner and the group owner.
+9. [John Doe](./9-John_Doe) : A script that sets the mode of the file ; where owner has all the permissions set, group owner has execute permissions set and others have only write and read permissions set.
+10. [Look in the mirror](./10-mirror_permissions) : A script that sets the mode of the file  the same as 's mode.
+11. [Directories](./11-directories_permissions) : A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. (**NB:** *Regular files should not be changed.*)
+12. [More directories](./12-directory_permissions) : A script that creates a directory called  with permissions **751** in the working directory.
+13. [Change group](./13-change_group) : A script that changes the group owner to  for the file .
+14. [Owner and group](./100-change_owner_and_group) : A script that changes the owner to No arguments passed. and the group owner to  for all the files and directories in the working directory.
+15. [Symbolic links](./101-symbolic_link_permissions) : A script that changes the owner and the group owner of  to No arguments passed. and  respectively.
+16. [If only](./102-if_only) : A script that changes the owner of the file  to No arguments passed. only if it is owned by the user .
